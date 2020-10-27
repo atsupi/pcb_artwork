@@ -1,0 +1,89 @@
+Update Components Report
+------------------------
+
+Report Written:     Sunday, June 30, 2019
+Project Path:       D:\Project\PCB\001_LQ050_pmod\LQ050_pmod.prj
+Design Path:        D:\Project\PCB\001_LQ050_pmod\LQ050_pmod.sch
+Design Title:       
+Created:            
+Last Saved:         2019/06/30 22:30:23
+Editing Time:       5 min
+Units:              thou (precision 2)
+
+
+Library Files:
+==============
+
+C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\User\User.cml
+C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\DesignSpark.cml
+C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\ltspice.cml
+C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\XSpice.cml
+
+Selected items to be updated:
+=============================
+
+
+Components:
+===========
+
+    (None) 
+
+Symbols:
+========
+
+    (None) 
+
+Additional items to be updated:
+===============================
+
+
+Components:
+===========
+
+    (None) 
+
+Symbols:
+========
+
+    (None) 
+
+Selected items not to be updated  (Same version as library)
+===========================================================
+
+
+Components:
+===========
+
++V  C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\DesignSpark.cml
+GND C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\DesignSpark.cml
+Vdd C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\DesignSpark.cml
+
+Symbols:
+========
+
++V  C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\DesignSpark.ssl
+GND C:\Users\Public\Documents\DesignSpark PCB 8.1\Library\Default\DesignSpark.ssl
+
+
+
+Update Components Summary
+=========================
+
+Updating all components.
+Update component values
+Update component value positions
+
+	Selected for update:			   3  Components
+						   2  Symbols
+
+	Selected items to be updated:		   0  Components
+						   0  Symbols
+
+	Additional items to be updated:		   0  Components
+						   0  Symbols
+
+	Selected items NOT to be updated:	   3  Components
+	  (Same version as library)		   2  Symbols
+
+
+End Of Report.
