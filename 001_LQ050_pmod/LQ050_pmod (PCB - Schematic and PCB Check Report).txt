@@ -1,0 +1,54 @@
+Schematic and PCB Check Report
+------------------------------
+
+Report Written:     Monday, November 02, 2020
+Project Path:       D:\Project\workspace\pcb_artwork\001_LQ050_pmod\LQ050_pmod.prj
+Design Path:        D:\Project\workspace\pcb_artwork\001_LQ050_pmod\LQ050_pmod.pcb
+Design Title:       
+Created:            2019/07/03 22:45:34
+Last Saved:         2020/11/02 1:33:34
+Editing Time:       7343 min
+Units:              mil (precision 0)
+
+
+Checking integrity of Schematic "D:\Project\workspace\pcb_artwork\001_LQ050_pmod\LQ050_pmod.sch" with PCB "D:\Project\workspace\pcb_artwork\001_LQ050_pmod\LQ050_pmod.pcb"
+==========================================================================================================================================================================
+
+The PCB and Schematic designs do not match.
+To bring them into line, you will need to make the following changes to the PCB design:
+
+Disconnect Pin J1-9 from Net "R5"
+Disconnect Pin J1-29 from Net "TST1"
+Disconnect Pin J1-30 from Net "TST2"
+Disconnect Pin J1-31 from Net "TST3"
+Disconnect Pin J1-32 from Net "TST4"
+Disconnect Pin J1-34 from Net "HVR"
+
+Delete Net "R5"
+
+Rename from "Component "JD" [90131-0126]" to "Component "J2" [90131-0126]"
+Rename from "Component "JC" [90131-0126]" to "Component "J3" [90131-0126]"
+Rename from "Component "JB" [90131-0126]" to "Component "J4" [90131-0126]"
+
+Add Net "N0092"
+Add Net "N0093"
+Add Net "N0094"
+Add Net "N0095"
+Add Net "N0096"
+Add Net "N0097"
+Add Net "N0098"
+Add Net "N0099"
+
+Connect Pin J1-29 to Net "N0096"
+Connect Pin J1-31 to Net "N0095"
+Connect Pin J1-30 to Net "N0094"
+Connect Pin J1-32 to Net "N0093"
+Connect Pin J1-34 to Net "N0092"
+Connect Pin J4-5 to Net "N0097"
+Connect Pin J4-9 to Net "N0098"
+Connect Pin J4-8 to Net "N0099"
+
+Net "GND" uses net class "Ground" in the schematic and net class "Signal" in the PCB.
+
+
+End Of Report.

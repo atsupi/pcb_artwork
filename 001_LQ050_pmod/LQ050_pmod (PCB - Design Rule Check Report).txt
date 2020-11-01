@@ -1,19 +1,22 @@
 Design Rule Check Report
 ------------------------
 
-Report Written:     Wednesday, July 03, 2019
-Project Path:       D:\Project\PCB\001_LQ050_pmod\LQ050_pmod.prj
-Design Path:        D:\Project\PCB\001_LQ050_pmod\LQ050_pmod.pcb
+Report Written:     Monday, November 02, 2020
+Project Path:       D:\Project\workspace\pcb_artwork\001_LQ050_pmod\LQ050_pmod.prj
+Design Path:        D:\Project\workspace\pcb_artwork\001_LQ050_pmod\LQ050_pmod.pcb
 Design Title:       
 Created:            2019/07/03 22:45:34
-Last Saved:         2019/07/03 23:49:12
-Editing Time:       63 min
+Last Saved:         2020/11/02 2:12:23
+Editing Time:       7300 min
 Units:              mil (precision 0)
 
 
 Results
 =======
 
+Drill Hole to Drill Hole error (D-D) at (8900 11200) on layer "[All]".
+Pad to Via error (P-V) at (8900 11200) on layer "[All]".
+    Via in pad Component Pad JD.9 (Net 'B0').
 Gap in Net "GND" between (10200,10800) and (9800,10700) 
     GND.
 Gap in Net "GND" between (9800,10700) and (9500,10800) 
@@ -23,18 +26,16 @@ Gap in Net "GND" between (9000,10700) and (8700,10700)
 Single pin net HVR on J1.34 at 9000,10800
 Gap in Net "R4" between (10300,10800) and (9800,11200) 
     R4.
-Single pin net RSV1 on J4.9 at 10700,11200
-Single pin net RSV2 on J4.5 at 10500,11200
+Single pin net RSV1 on JB.9 at 10700,11200
+Single pin net RSV2 on JB.5 at 10500,11200
 Single pin net TST1 on J1.29 at 9200,10700
 Single pin net TST2 on J1.30 at 9200,10800
 Single pin net TST3 on J1.31 at 9100,10700
 Single pin net TST4 on J1.32 at 9100,10800
-Gap in Net "VDD" between (8900,10800) and (9400,11200) 
-    VDD.
 Gap in Net "VDD" between (9400,11300) and (10300,11300) 
     VDD.
 
-Number of errors found : 13
+Number of errors found : 14
 
 
 Settings
@@ -51,23 +52,23 @@ Shapes        Yes
 Text          Yes
 Board         Yes
 Drills        Yes
-Components    No
+Components    Yes
 
 
 Manufacturing
 
 ==============
 
-Drill Breakout                  No
-Drill Backoff                   No
-Silkscreen Overlap              No
-Copper Text In Board            No
-Min Track Width                 No
-Min Annular Ring                No
-Min Paste Size                  No
-Vias In Pads                    No
-Unplated Vias                   No
-Unplated Pads With Inner Tracks No
+Drill Breakout                  Yes
+Drill Backoff                   Yes
+Silkscreen Overlap              Yes
+Copper Text In Board            Yes
+Min Track Width                 Yes
+Min Annular Ring                Yes
+Min Paste Size                  Yes
+Vias In Pads                    Yes
+Unplated Vias                   Yes
+Unplated Pads With Inner Tracks Yes
 
 
 Nets
